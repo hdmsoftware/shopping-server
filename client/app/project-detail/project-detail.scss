@@ -1,0 +1,89 @@
+.modal-dark {
+	background: #333;
+}
+
+/* Project details page */
+#project-detail {
+
+	.project-status {
+		font-size: 20px;
+		margin-top: 25px;
+	}
+	.project-description {
+		width: 100%;
+	}
+	.video-container span,
+	.image-container span {
+		font-size: 20px;
+	}
+
+	.image-box,
+	.video-box {
+		border: 1px solid #DDD;
+		height: 200px;
+	    // width: 200px;
+	    margin: 10px auto;
+	}
+
+
+	.fa-trash {
+		color: #FF3333;
+	}
+	.fa-edit, .fa-trash {
+		font-size: 18px;
+		padding: 2px;
+		cursor: pointer;
+	}
+
+	.product-group {
+		margin-bottom: 5px;
+		.product-group-name {
+			cursor: pointer;
+		}
+	}
+	
+	.product {
+
+	}
+
+	.save-project-container {
+		margin-top: 20px;
+	}
+}
+
+// COMMON
+input,
+textarea {
+	color: black;
+}
+.thumbnail-image {
+    margin: 0 auto;
+    border: 1px solid #DDD;
+}
+
+.direct_upload { 
+	border: 4px dashed #ccc; 
+	padding: 20px 20px; 
+	margin: 20px 0;
+	position: relative;
+}
+
+.direct_upload.dragover { 
+	border-color: #0c0; 
+}
+.direct_upload.dragover-err { 
+	border-color: #c00; 
+}
+
+.progress-bar{
+	width: 100%;
+	position: relative;
+	height: 4px;
+	margin-bottom: 5px;
+	background-color: white;
+}
+.progress-bar .progress{
+	height: 4px;
+	background-color: #5CB85C;
+	width: 0;
+}

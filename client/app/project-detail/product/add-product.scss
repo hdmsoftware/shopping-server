@@ -1,0 +1,28 @@
+.add-product-modal {
+	.modal-content {
+		background: #333;
+	}
+	.fa-times {
+		position: absolute;
+		font-size: 20px;
+		top: -10px;
+		right: 5px;
+		cursor: pointer;
+	}
+
+	.product-color, .product-size {
+	    height: 30px;
+	    width: 30px;
+	    margin: 5px;
+	    position: relative;
+
+	    .fa-times {
+	        bottom: -10px;
+	        right: -10px;
+	    }
+	}
+
+	.product-size {
+		width: auto;
+	}
+}
